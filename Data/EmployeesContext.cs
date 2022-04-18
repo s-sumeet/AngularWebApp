@@ -3,7 +3,7 @@ namespace AngularWebApp.Data
 {
     public class EmployeesContext : DbContext
     {
-         public EmployeesContext (DbContextOptions<EmployeesContext> options)
+      public EmployeesContext (DbContextOptions<EmployeesContext> options)
             : base(options)
         {
         }
